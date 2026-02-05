@@ -243,4 +243,7 @@ export const Navbar = () => {
             </MobileDrawer>
           </>
         )}
-      </AnimatePresen
+      </AnimatePresence>
+    </>
+  );
+};

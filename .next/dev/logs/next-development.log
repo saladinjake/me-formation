@@ -8550,3 +8550,11 @@ https://nextjs.org/docs/messages/module-not-found
 [00:53:55.703] Server  LOG     ✓ Finished filesystem cache database compaction in 103s
 [00:54:01.926] Server  LOG     ✓ Finished writing to filesystem cache in 62s
 [00:58:36.454] Server  LOG     ✓ Compiled in 698ms
+[01:01:13.058] Server  LOG     ✓ Compiled in 700ms
+[01:03:35.961] Server  LOG     ○ Compiling /contact ...
+[01:03:36.561] Server  LOG     ✓ Finished writing to filesystem cache in 22.8s
+[01:09:02.118] Server  LOG     ✓ Compiled in 617ms
+[01:09:10.326] Server  LOG     ✓ Compiled in 661ms
+[01:09:53.708] Server  LOG     ✓ Compiled in 283ms
+[01:14:11.902] Server  LOG     ✓ Compiled in 186ms
+[01:21:43.623] Server  LOG     ✓ Compiled in 205ms

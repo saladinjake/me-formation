@@ -1,5 +1,10 @@
 [
     {
+        "name": "CSS / Styled Components/ MDX /Chakra",
+        "level": 95,
+        "category": "Frontend"
+    },
+    {
         "name": "React",
         "level": 95,
         "category": "Frontend"
@@ -7,6 +12,11 @@
     {
         "name": "Next.js",
         "level": 90,
+        "category": "Frontend"
+    },
+    {
+        "name": "Vue",
+        "level": 95,
         "category": "Frontend"
     },
     {
@@ -20,11 +30,6 @@
         "category": "Backend"
     },
     {
-        "name": "Styled Components",
-        "level": 95,
-        "category": "Styling"
-    },
-    {
         "name": "TanStack Query",
         "level": 90,
         "category": "State Management"
@@ -33,6 +38,41 @@
         "name": "PostgreSQL",
         "level": 85,
         "category": "Database"
+    },
+    {
+        "name": "Mysql/SQL SERVER",
+        "level": 85,
+        "category": "Database"
+    },
+    {
+        "name": "Mongo Db",
+        "level": 85,
+        "category": "Database"
+    },
+    {
+        "name": "Redis",
+        "level": 85,
+        "category": "Database"
+    },
+    {
+        "name": "PHP",
+        "level": 90,
+        "category": "Backend"
+    },
+    {
+        "name": "Laravel",
+        "level": 90,
+        "category": "Backend"
+    },
+    {
+        "name": "Python",
+        "level": 89,
+        "category": "Backend"
+    },
+    {
+        "name": "Django",
+        "level": 90,
+        "category": "Backend"
     },
     {
         "name": "AWS",

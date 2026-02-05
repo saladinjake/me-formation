@@ -346,7 +346,7 @@ const Navbar = ()=>{
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DropdownItem, {
-                                                        href: "https://linkedin.com",
+                                                        href: "https://linkedin.com/victor-juwa",
                                                         target: "_blank",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"], {
@@ -364,7 +364,7 @@ const Navbar = ()=>{
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DropdownItem, {
-                                                        href: "https://github.com",
+                                                        href: "https://github.com/saladinjake",
                                                         target: "_blank",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {
@@ -1393,7 +1393,7 @@ const IconWrap = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f
 _c9 = IconWrap;
 const highlights = [
     {
-        title: "8+ Years of Excellence",
+        title: "5+ Years of Excellence",
         desc: "Building scalable enterprise applications with cutting-edge tech.",
         color: 'linear-gradient(135deg, #8B5CF6 0%, #6D28D9 100%)',
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__["Code2"], {
@@ -1405,7 +1405,7 @@ const highlights = [
         }, ("TURBOPACK compile-time value", void 0))
     },
     {
-        title: "50+ Successful Products",
+        title: "20+ Successful Products",
         desc: "From fintech to e-commerce, delivering value to global clients.",
         color: 'linear-gradient(135deg, #7C3AED 0%, #5B21B6 100%)',
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trophy$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trophy$3e$__["Trophy"], {
@@ -1607,7 +1607,8 @@ const Hero = ({ data })=>{
                                         style: {
                                             fontSize: '2.5rem',
                                             marginBottom: '1rem',
-                                            fontWeight: 800
+                                            fontWeight: 800,
+                                            color: "#fff"
                                         },
                                         initial: {
                                             opacity: 0,
@@ -2625,7 +2626,7 @@ const ProgressBar = ({ label, value, render })=>/*#__PURE__*/ (0, __TURBOPACK__i
     }, ("TURBOPACK compile-time value", void 0));
 _c6 = ProgressBar;
 const Strength = ({ data })=>{
-    const strengths = data?.slice(0, 6) || [];
+    const strengths = data?.slice(0, 12) || [];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Section"], {
         style: {
             background: 'var(--accent)',
@@ -2679,15 +2680,15 @@ const Strength = ({ data })=>{
                                 once: true
                             },
                             children: [
-                                "Demonstrating expertise through the ",
+                                "Demonstrating expertise through ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    children: "Render Prop Pattern"
+                                    children: "Design Patterns"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Strength.tsx",
                                     lineNumber: 106,
-                                    columnNumber: 49
+                                    columnNumber: 45
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                " for granular UI control."
+                                " for granular UI control and api solutions."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/Strength.tsx",

@@ -82,7 +82,7 @@ const ProgressBar = ({ label, value, render }: ProgressBarProps) => (
 );
 
 export const Strength = ({ data }: { data: any[] }) => {
-  const strengths = data?.slice(0, 6) || [];
+  const strengths = data?.slice(0, 12) || [];
 
   return (
     <Section style={{ background: 'var(--accent)', position: 'relative' }}>
@@ -103,7 +103,7 @@ export const Strength = ({ data }: { data: any[] }) => {
             transition={{ delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Demonstrating expertise through the <strong>Render Prop Pattern</strong> for granular UI control.
+            Demonstrating expertise through <strong>Design Patterns</strong> for granular UI control and api solutions.
           </motion.p>
         </Header>
 

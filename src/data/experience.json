@@ -1,23 +1,27 @@
 [
     {
-        "company": "Startup Inc.",
-        "role": "Senior Fullstack Developer",
+        "company": "Kuda Bank",
+        "role": "Software Engineer II",
         "period": "2020 - Present",
-        "description": "Leading development of enterprise-grade cloud applications using Next.js and Microservices.",
+        "description": "Leading development of enterprise-grade Core Banking applications using React, Gatsby ,  Next.js and Microservices.",
         "achievements": [
             "Reduced load times by 40% across all core products",
-            "Mentored 10+ junior developers in modern React patterns",
-            "Architected a scalable real-time notification engine"
+            "Mentored 4+ junior developers in modern React patterns",
+            "Architected a scalable real-time notification engine",
+            "Built the core banking features like Bulk Payments, Bulk refunds and scale up to 100,000 payment on single batch upload",
+            "Built Fraud System and fraud rules logic as a fraud watch operation",
+            "Built Smart loan /Overdraft service and repayment system for debt recovery",
+            "Built Credit service system and debt write-off modules for debt offset"
         ],
         "products": [
             {
-                "name": "Cloud Dashboard",
-                "image": "https://images.unsplash.com/photo-1551288049-bbda48642a4c?auto=format&fit=crop&w=400",
+                "name": "Cloud Dashboard Analytics",
+                "image": "",
                 "description": "Enterprise data visualization tool"
             },
             {
-                "name": "Admin Portal v2",
-                "image": "https://images.unsplash.com/photo-1504868584819-f8e905b6dc79?auto=format&fit=crop&w=400",
+                "name": "Admin Portal v2 Back Office",
+                "image": "",
                 "description": "Next-gen management interface"
             }
         ]

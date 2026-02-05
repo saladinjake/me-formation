@@ -128,13 +128,13 @@ const IconWrap = styled.div`
 
 const highlights = [
     {
-        title: "8+ Years of Excellence",
+        title: "5+ Years of Excellence",
         desc: "Building scalable enterprise applications with cutting-edge tech.",
         color: 'linear-gradient(135deg, #8B5CF6 0%, #6D28D9 100%)',
         icon: <Code2 size={40} />
     },
     {
-        title: "50+ Successful Products",
+        title: "20+ Successful Products",
         desc: "From fintech to e-commerce, delivering value to global clients.",
         color: 'linear-gradient(135deg, #7C3AED 0%, #5B21B6 100%)',
         icon: <Trophy size={40} />
@@ -207,7 +207,7 @@ export const Hero = ({ data }: { data: any }) => {
                             >
                                 <IconWrap>{highlights[index].icon}</IconWrap>
                                 <motion.h3
-                                    style={{ fontSize: '2.5rem', marginBottom: '1rem', fontWeight: 800 }}
+                                    style={{ fontSize: '2.5rem', marginBottom: '1rem', fontWeight: 800, color: "#fff" }}
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ delay: 0.2 }}
