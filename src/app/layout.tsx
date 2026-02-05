@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import StyledComponentsRegistry from "@/lib/registry";
 import { GlobalStyles } from "@/styles/GlobalStyles";
 import Providers from "./providers";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-    title: "Saleem Kudra | Fullstack Developer Portfolio",
-    description: "Professional portfolio of Saleem Kudra, a Fullstack Developer with 8 years of experience.",
+    title: "Victor Juwa ((Saladin Jake) | Fullstack Engineer Portfolio",
+    description: "Project showcase portfolio of Victor AJuwa,  Fullstack Engineer with 6 years of experience.",
 };
 
 export default function RootLayout({
@@ -18,7 +15,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={inter.className}>
+            <body>
                 <StyledComponentsRegistry>
                     <Providers>
                         <GlobalStyles />

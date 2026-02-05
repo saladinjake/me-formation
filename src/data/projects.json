@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "title": "Enterprise CRM System",
+        "description": "A comprehensive CRM system for large-scale businesses with deep analytics and real-time data visualization.",
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600",
+        "liveLink": "https://example.com",
+        "github": "https://github.com",
+        "complexity": "High",
+        "stacks": [
+            "Next.js",
+            "TypeScript",
+            "PostgreSQL",
+            "TanStack Query"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "FinTech Payment Gateway",
+        "description": "Secure and scalable payment processing engine with multi-currency support and fraud detection.",
+        "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600",
+        "liveLink": "https://example.com",
+        "github": "https://github.com",
+        "complexity": "High",
+        "stacks": [
+            "React",
+            "Node.js",
+            "Redis",
+            "Docker"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "AI Content Studio",
+        "description": "Generative AI platform for enterprise marketing teams with integrated workflow automation.",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600",
+        "liveLink": "https://example.com",
+        "github": "https://github.com",
+        "complexity": "Medium",
+        "stacks": [
+            "Next.js",
+            "OpenAI",
+            "TailwindCSS",
+            "Framer Motion"
+        ]
+    }
+]

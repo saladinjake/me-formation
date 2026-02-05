@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "title": "AWS Certified Solutions Architect",
+        "issuer": "Amazon Web Services",
+        "date": "2023",
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400"
+    },
+    {
+        "id": "2",
+        "title": "Professional React Developer",
+        "issuer": "Meta",
+        "date": "2022",
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=400"
+    }
+]

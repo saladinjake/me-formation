@@ -1,0 +1,52 @@
+[
+    {
+        "name": "React",
+        "level": 95,
+        "category": "Frontend"
+    },
+    {
+        "name": "Next.js",
+        "level": 90,
+        "category": "Frontend"
+    },
+    {
+        "name": "TypeScript",
+        "level": 92,
+        "category": "Language"
+    },
+    {
+        "name": "Node.js",
+        "level": 88,
+        "category": "Backend"
+    },
+    {
+        "name": "Styled Components",
+        "level": 95,
+        "category": "Styling"
+    },
+    {
+        "name": "TanStack Query",
+        "level": 90,
+        "category": "State Management"
+    },
+    {
+        "name": "PostgreSQL",
+        "level": 85,
+        "category": "Database"
+    },
+    {
+        "name": "AWS",
+        "level": 80,
+        "category": "Cloud"
+    },
+    {
+        "name": "Docker",
+        "level": 75,
+        "category": "DevOps"
+    },
+    {
+        "name": "Framer Motion",
+        "level": 85,
+        "category": "Animation"
+    }
+]

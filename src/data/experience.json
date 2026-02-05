@@ -1,0 +1,61 @@
+[
+    {
+        "company": "Startup Inc.",
+        "role": "Senior Fullstack Developer",
+        "period": "2020 - Present",
+        "description": "Leading development of enterprise-grade cloud applications using Next.js and Microservices.",
+        "achievements": [
+            "Reduced load times by 40% across all core products",
+            "Mentored 10+ junior developers in modern React patterns",
+            "Architected a scalable real-time notification engine"
+        ],
+        "products": [
+            {
+                "name": "Cloud Dashboard",
+                "image": "https://images.unsplash.com/photo-1551288049-bbda48642a4c?auto=format&fit=crop&w=400",
+                "description": "Enterprise data visualization tool"
+            },
+            {
+                "name": "Admin Portal v2",
+                "image": "https://images.unsplash.com/photo-1504868584819-f8e905b6dc79?auto=format&fit=crop&w=400",
+                "description": "Next-gen management interface"
+            }
+        ]
+    },
+    {
+        "company": "Kuda Bank",
+        "role": "Fullstack Developer",
+        "period": "2016 - 2020",
+        "description": "Built scalable e-commerce platforms and modular CMS solutions.",
+        "achievements": [
+            "Architected a multi-vendor marketplace from scratch",
+            "Implemented automated CI/CD pipelines reducing deployment risk",
+            "Designed a proprietary UI component library"
+        ],
+        "products": [
+            {
+                "name": "Marketplace Pro",
+                "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400",
+                "description": "Scalable B2B platform"
+            }
+        ]
+    },
+    {
+        "company": "Kuda bank",
+        "role": "Fullstack Developer",
+        "period": "2014 - 2016",
+        "description": "Initial hire at a fintech startup, responsible for core product development.",
+        "achievements": [
+            "Integrated 5+ payment gateways for global transactions",
+            "Optimized database queries decreasing latency by 60%",
+            "Secured application against common OWASP vulnerabilities"
+        ],
+        "products": [
+            {
+                "name": "PayStream",
+                "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400",
+                "description": "Secure payment processing gateway"
+            }
+        ]
+    }
+]
