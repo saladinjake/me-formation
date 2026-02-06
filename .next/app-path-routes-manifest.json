@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/about/page": "/admin/about",
+  "/admin/certificates/page": "/admin/certificates",
+  "/admin/education/page": "/admin/education",
+  "/admin/experience/page": "/admin/experience",
+  "/admin/page": "/admin",
+  "/admin/projects/page": "/admin/projects",
+  "/admin/side-projects/page": "/admin/side-projects",
+  "/admin/skills/page": "/admin/skills",
+  "/api/data/route": "/api/data",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/projects/page": "/projects",
+  "/resume/page": "/resume"
+}

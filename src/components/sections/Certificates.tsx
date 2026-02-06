@@ -140,108 +140,108 @@ const CloseButton = styled.button`
 `;
 
 export const Certificates = ({ data }: { data: any[] }) => {
-    const [selected, setSelected] = useState<any>(null);
+  const [selected, setSelected] = useState<any>(null);
 
-    return (
-        <Section>
-            <Container>
-                <div style={{ textAlign: 'center' }}>
-                    <motion.h2
-                        style={{ fontSize: '3rem', fontWeight: 800 }}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                    >
-                        Verified Expertise
-                    </motion.h2>
-                    <motion.p
-                        style={{ color: 'var(--secondary)', fontSize: '1.2rem', marginTop: '1rem' }}
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        transition={{ delay: 0.2 }}
-                        viewport={{ once: true }}
-                    >
-                        A collection of certifications and honors validating technical proficiency.
-                    </motion.p>
+  return (
+    <Section>
+      <Container>
+        <div style={{ textAlign: 'center' }}>
+          <motion.h2
+            style={{ fontSize: '3rem', fontWeight: 800 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Verified Expertise
+          </motion.h2>
+          <motion.p
+            style={{ color: 'var(--secondary)', fontSize: '1.2rem', marginTop: '1rem' }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            A collection of certifications and honors validating technical proficiency.
+          </motion.p>
+        </div>
+
+        <CertGrid>
+          {data?.map((cert, i) => (
+            <CertCard
+              key={cert.id}
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ delay: i * 0.1 }}
+              viewport={{ once: true }}
+              onClick={() => setSelected(cert)}
+            >
+              <ImageWrapper>
+                <img src={cert.image} alt={cert.title} />
+                <Overlay>
+                  <ZoomIn size={32} />
+                </Overlay>
+              </ImageWrapper>
+              <CertInfo>
+                <span className="badge">{cert.issuer}</span>
+                <h4>{cert.title}</h4>
+                <p>{cert.date}</p>
+              </CertInfo>
+            </CertCard>
+          ))}
+        </CertGrid>
+      </Container>
+
+      <AnimatePresence>
+        {selected && (
+          <ModalBackdrop
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelected(null)}
+          >
+            <ModalContainer
+              initial={{ scale: 0.8, y: 50, opacity: 0 }}
+              animate={{ scale: 1, y: 0, opacity: 1 }}
+              exit={{ scale: 0.8, y: 50, opacity: 0 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <CloseButton onClick={() => setSelected(null)}>
+                <X size={24} />
+              </CloseButton>
+              <div style={{ display: 'grid', gridTemplateColumns: 'minmax(400px, 1fr) 1.2fr', gap: '0' }}>
+                <div style={{ height: '500px' }}>
+                  <img
+                    src={selected.image}
+                    alt={selected.title}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
                 </div>
-
-                <CertGrid>
-                    {data?.map((cert, i) => (
-                        <CertCard
-                            key={cert.id}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{ delay: i * 0.1 }}
-                            viewport={{ once: true }}
-                            onClick={() => setSelected(cert)}
-                        >
-                            <ImageWrapper>
-                                <img src={cert.image} alt={cert.title} />
-                                <Overlay>
-                                    <ZoomIn size={32} />
-                                </Overlay>
-                            </ImageWrapper>
-                            <CertInfo>
-                                <span className="badge">{cert.issuer}</span>
-                                <h4>{cert.title}</h4>
-                                <p>{cert.date}</p>
-                            </CertInfo>
-                        </CertCard>
-                    ))}
-                </CertGrid>
-            </Container>
-
-            <AnimatePresence>
-                {selected && (
-                    <ModalBackdrop
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        onClick={() => setSelected(null)}
-                    >
-                        <ModalContainer
-                            initial={{ scale: 0.8, y: 50, opacity: 0 }}
-                            animate={{ scale: 1, y: 0, opacity: 1 }}
-                            exit={{ scale: 0.8, y: 50, opacity: 0 }}
-                            onClick={(e) => e.stopPropagation()}
-                        >
-                            <CloseButton onClick={() => setSelected(null)}>
-                                <X size={24} />
-                            </CloseButton>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'minmax(400px, 1fr) 1.2fr', gap: '0' }}>
-                                <div style={{ height: '500px' }}>
-                                    <img
-                                        src={selected.image}
-                                        alt={selected.title}
-                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                    />
-                                </div>
-                                <div style={{ padding: '4rem 3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                                    <Award size={60} style={{ color: 'var(--primary)', marginBottom: '2rem' }} />
-                                    <h3 style={{ fontSize: '2rem', marginBottom: '1rem', lineHeight: '1.2' }}>{selected.title}</h3>
-                                    <p style={{ color: 'var(--secondary)', fontSize: '1.1rem', marginBottom: '2.5rem', lineHeight: '1.6' }}>
-                                        Successfully verified and issued by <strong>{selected.issuer}</strong> in {selected.date}.
-                                        This credential recognizes advanced proficiency in architectural design and technical implementation.
-                                    </p>
-                                    <button style={{
-                                        background: 'var(--foreground)',
-                                        color: 'white',
-                                        padding: '1.25rem 2rem',
-                                        borderRadius: '1rem',
-                                        fontWeight: 700,
-                                        display: 'flex',
-                                        alignItems: center,
-                                        gap: '0.75rem',
-                                        width: 'fit-content'
-                                    }}>
-                                        Verify Credential <ExternalLink size={20} />
-                                    </button>
-                                </div>
-                            </div>
-                        </ModalContainer>
-                    </ModalBackdrop>
-                )}
-            </AnimatePresence>
-        </Section>
-    );
+                <div style={{ padding: '4rem 3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                  <Award size={60} style={{ color: 'var(--primary)', marginBottom: '2rem' }} />
+                  <h3 style={{ fontSize: '2rem', marginBottom: '1rem', lineHeight: '1.2' }}>{selected.title}</h3>
+                  <p style={{ color: 'var(--secondary)', fontSize: '1.1rem', marginBottom: '2.5rem', lineHeight: '1.6' }}>
+                    Successfully verified and issued by <strong>{selected.issuer}</strong> in {selected.date}.
+                    This credential recognizes advanced proficiency in architectural design and technical implementation.
+                  </p>
+                  <button style={{
+                    background: 'var(--foreground)',
+                    color: 'white',
+                    padding: '1.25rem 2rem',
+                    borderRadius: '1rem',
+                    fontWeight: 700,
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.75rem',
+                    width: 'fit-content'
+                  }}>
+                    Verify Credential <ExternalLink size={20} />
+                  </button>
+                </div>
+              </div>
+            </ModalContainer>
+          </ModalBackdrop>
+        )}
+      </AnimatePresence>
+    </Section>
+  );
 };

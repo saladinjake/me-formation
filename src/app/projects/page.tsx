@@ -195,6 +195,10 @@ const LinkRow = styled.div`
 
 export default function ProjectsPage() {
   const [sideProjects, setSideProjects] = useState<any[]>([]);
+  const [projects, setProjects] = useState<any[]>([]);
+  const [filtered, setFiltered] = useState<any[]>([]);
+  const [search, setSearch] = useState('');
+  const [complexityFilter, setComplexityFilter] = useState('All');
 
   useEffect(() => {
     fetch('/api/data?type=projects')

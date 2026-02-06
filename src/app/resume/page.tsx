@@ -3,7 +3,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { Download, Globe, Mail, Phone, MapPin, Printer, Share2, ShieldCheck, Layers, BookOpen, Rocket, Award } from 'lucide-react';
+import { Download, Globe, Mail, Phone, MapPin, Printer, Share2, ShieldCheck, Layers, BookOpen, Rocket, Award, ExternalLink } from 'lucide-react';
 import { Container, Section } from '@/components/ui/Container';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
@@ -256,6 +256,32 @@ export default function ResumePage() {
                     <li key={j}>{a}</li>
                   ))}
                 </ul>
+
+                {exp.products && exp.products.length > 0 && (
+                  <div style={{ marginTop: '1.5rem', paddingLeft: '1rem', borderLeft: '2px solid var(--accent)' }}>
+                    <h5 style={{ fontSize: '0.95rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Delivered Milestones</h5>
+                    <div style={{ display: 'grid', gap: '1rem' }}>
+                      {exp.products.map((prod: any, k: number) => (
+                        <div key={k}>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.25rem' }}>
+                            <span style={{ fontWeight: 700, fontSize: '0.95rem' }}>{prod.name}</span>
+                            {prod.link && (
+                              <a href={prod.link} target="_blank" style={{ fontSize: '0.8rem', color: 'var(--primary)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                                View <ExternalLink size={12} />
+                              </a>
+                            )}
+                          </div>
+                          <p style={{ fontSize: '0.9rem', color: '#475569', marginBottom: '0.5rem' }}>{prod.description}</p>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                            {prod.techStack?.map((t: string) => (
+                              <span key={t} style={{ fontSize: '0.7rem', padding: '0.15rem 0.5rem', background: '#f1f5f9', borderRadius: '4px', color: '#475569', fontWeight: 600 }}>{t}</span>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </ExpItem>
             ))}
           </div>
@@ -280,7 +306,14 @@ export default function ResumePage() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
               {sideProjects?.map((proj: any, i: number) => (
                 <div key={i} style={{ padding: '1.5rem', background: 'var(--accent)', borderRadius: '1rem', border: '1px solid var(--border)' }}>
-                  <h4 style={{ fontWeight: 800, marginBottom: '0.5rem', color: 'var(--primary-dark)' }}>{proj.title}</h4>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
+                    <h4 style={{ fontWeight: 800, color: 'var(--primary-dark)' }}>{proj.title}</h4>
+                    {proj.link && (
+                      <a href={proj.link} target="_blank" style={{ color: 'var(--primary)' }}>
+                        <ExternalLink size={16} />
+                      </a>
+                    )}
+                  </div>
                   <p style={{ fontSize: '0.9rem', color: 'var(--secondary)', marginBottom: '1rem' }}>{proj.description}</p>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                     {proj.tech?.map((t: string) => (

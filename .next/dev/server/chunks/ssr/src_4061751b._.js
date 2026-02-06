@@ -1180,6 +1180,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book-open.js [app-ssr] (ecmascript) <export default as BookOpen>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rocket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Rocket$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/rocket.js [app-ssr] (ecmascript) <export default as Rocket>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-ssr] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/external-link.js [app-ssr] (ecmascript) <export default as ExternalLink>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/Container.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/layout/Navbar.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/layout/Footer.tsx [app-ssr] (ecmascript)");
@@ -1711,6 +1712,141 @@ function ResumePage() {
                                                 fileName: "[project]/src/app/resume/page.tsx",
                                                 lineNumber: 254,
                                                 columnNumber: 17
+                                            }, this),
+                                            exp.products && exp.products.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    marginTop: '1.5rem',
+                                                    paddingLeft: '1rem',
+                                                    borderLeft: '2px solid var(--accent)'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                                                        style: {
+                                                            fontSize: '0.95rem',
+                                                            fontWeight: 800,
+                                                            color: 'var(--primary)',
+                                                            marginBottom: '0.75rem',
+                                                            textTransform: 'uppercase',
+                                                            letterSpacing: '0.5px'
+                                                        },
+                                                        children: "Delivered Milestones"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/resume/page.tsx",
+                                                        lineNumber: 262,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            display: 'grid',
+                                                            gap: '1rem'
+                                                        },
+                                                        children: exp.products.map((prod, k)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        style: {
+                                                                            display: 'flex',
+                                                                            justifyContent: 'space-between',
+                                                                            alignItems: 'baseline',
+                                                                            marginBottom: '0.25rem'
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                style: {
+                                                                                    fontWeight: 700,
+                                                                                    fontSize: '0.95rem'
+                                                                                },
+                                                                                children: prod.name
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/app/resume/page.tsx",
+                                                                                lineNumber: 267,
+                                                                                columnNumber: 29
+                                                                            }, this),
+                                                                            prod.link && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                                href: prod.link,
+                                                                                target: "_blank",
+                                                                                style: {
+                                                                                    fontSize: '0.8rem',
+                                                                                    color: 'var(--primary)',
+                                                                                    fontWeight: 600,
+                                                                                    display: 'flex',
+                                                                                    alignItems: 'center',
+                                                                                    gap: '0.25rem'
+                                                                                },
+                                                                                children: [
+                                                                                    "View ",
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
+                                                                                        size: 12
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/app/resume/page.tsx",
+                                                                                        lineNumber: 270,
+                                                                                        columnNumber: 38
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/src/app/resume/page.tsx",
+                                                                                lineNumber: 269,
+                                                                                columnNumber: 31
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/src/app/resume/page.tsx",
+                                                                        lineNumber: 266,
+                                                                        columnNumber: 27
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        style: {
+                                                                            fontSize: '0.9rem',
+                                                                            color: '#475569',
+                                                                            marginBottom: '0.5rem'
+                                                                        },
+                                                                        children: prod.description
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/app/resume/page.tsx",
+                                                                        lineNumber: 274,
+                                                                        columnNumber: 27
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        style: {
+                                                                            display: 'flex',
+                                                                            flexWrap: 'wrap',
+                                                                            gap: '0.4rem'
+                                                                        },
+                                                                        children: prod.techStack?.map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                style: {
+                                                                                    fontSize: '0.7rem',
+                                                                                    padding: '0.15rem 0.5rem',
+                                                                                    background: '#f1f5f9',
+                                                                                    borderRadius: '4px',
+                                                                                    color: '#475569',
+                                                                                    fontWeight: 600
+                                                                                },
+                                                                                children: t
+                                                                            }, t, false, {
+                                                                                fileName: "[project]/src/app/resume/page.tsx",
+                                                                                lineNumber: 277,
+                                                                                columnNumber: 31
+                                                                            }, this))
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/app/resume/page.tsx",
+                                                                        lineNumber: 275,
+                                                                        columnNumber: 27
+                                                                    }, this)
+                                                                ]
+                                                            }, k, true, {
+                                                                fileName: "[project]/src/app/resume/page.tsx",
+                                                                lineNumber: 265,
+                                                                columnNumber: 25
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/resume/page.tsx",
+                                                        lineNumber: 263,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/resume/page.tsx",
+                                                lineNumber: 261,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, i, true, {
@@ -1740,14 +1876,14 @@ function ResumePage() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 264,
+                                            lineNumber: 290,
                                             columnNumber: 61
                                         }, this),
                                         " Education"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/resume/page.tsx",
-                                    lineNumber: 264,
+                                    lineNumber: 290,
                                     columnNumber: 13
                                 }, this),
                                 education?.map((edu, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ExpItem, {
@@ -1759,20 +1895,20 @@ function ResumePage() {
                                                         children: edu.degree
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/resume/page.tsx",
-                                                        lineNumber: 269,
+                                                        lineNumber: 295,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: edu.period
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/resume/page.tsx",
-                                                        lineNumber: 270,
+                                                        lineNumber: 296,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/resume/page.tsx",
-                                                lineNumber: 268,
+                                                lineNumber: 294,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1780,7 +1916,7 @@ function ResumePage() {
                                                 children: edu.school
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/resume/page.tsx",
-                                                lineNumber: 272,
+                                                lineNumber: 298,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1791,19 +1927,19 @@ function ResumePage() {
                                                 children: edu.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/resume/page.tsx",
-                                                lineNumber: 273,
+                                                lineNumber: 299,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, i, true, {
                                         fileName: "[project]/src/app/resume/page.tsx",
-                                        lineNumber: 267,
+                                        lineNumber: 293,
                                         columnNumber: 15
                                     }, this))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/resume/page.tsx",
-                            lineNumber: 263,
+                            lineNumber: 289,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1817,14 +1953,14 @@ function ResumePage() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 279,
+                                            lineNumber: 305,
                                             columnNumber: 27
                                         }, this),
                                         " Strategic Side Projects"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/resume/page.tsx",
-                                    lineNumber: 279,
+                                    lineNumber: 305,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1841,16 +1977,47 @@ function ResumePage() {
                                                 border: '1px solid var(--border)'
                                             },
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
-                                                        fontWeight: 800,
-                                                        marginBottom: '0.5rem',
-                                                        color: 'var(--primary-dark)'
+                                                        display: 'flex',
+                                                        justifyContent: 'space-between',
+                                                        alignItems: 'flex-start',
+                                                        marginBottom: '0.5rem'
                                                     },
-                                                    children: proj.title
-                                                }, void 0, false, {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                            style: {
+                                                                fontWeight: 800,
+                                                                color: 'var(--primary-dark)'
+                                                            },
+                                                            children: proj.title
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/resume/page.tsx",
+                                                            lineNumber: 310,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        proj.link && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                            href: proj.link,
+                                                            target: "_blank",
+                                                            style: {
+                                                                color: 'var(--primary)'
+                                                            },
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
+                                                                size: 16
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/resume/page.tsx",
+                                                                lineNumber: 313,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/resume/page.tsx",
+                                                            lineNumber: 312,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 309,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1862,7 +2029,7 @@ function ResumePage() {
                                                     children: proj.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 284,
+                                                    lineNumber: 317,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1883,29 +2050,29 @@ function ResumePage() {
                                                             children: t
                                                         }, t, false, {
                                                             fileName: "[project]/src/app/resume/page.tsx",
-                                                            lineNumber: 287,
+                                                            lineNumber: 320,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 285,
+                                                    lineNumber: 318,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 308,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/resume/page.tsx",
-                                    lineNumber: 280,
+                                    lineNumber: 306,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/resume/page.tsx",
-                            lineNumber: 278,
+                            lineNumber: 304,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1919,14 +2086,14 @@ function ResumePage() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 296,
+                                            lineNumber: 329,
                                             columnNumber: 27
                                         }, this),
                                         " Professional Certifications"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/resume/page.tsx",
-                                    lineNumber: 296,
+                                    lineNumber: 329,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1958,12 +2125,12 @@ function ResumePage() {
                                                         opacity: 0.3
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/resume/page.tsx",
-                                                        lineNumber: 301,
+                                                        lineNumber: 334,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 300,
+                                                    lineNumber: 333,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -1974,7 +2141,7 @@ function ResumePage() {
                                                     children: cert.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 303,
+                                                    lineNumber: 336,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1989,24 +2156,24 @@ function ResumePage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 304,
+                                                    lineNumber: 337,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 299,
+                                            lineNumber: 332,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/resume/page.tsx",
-                                    lineNumber: 297,
+                                    lineNumber: 330,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/resume/page.tsx",
-                            lineNumber: 295,
+                            lineNumber: 328,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2017,14 +2184,14 @@ function ResumePage() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 311,
+                                            lineNumber: 344,
                                             columnNumber: 27
                                         }, this),
                                         " Technical Arsenal"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/resume/page.tsx",
-                                    lineNumber: 311,
+                                    lineNumber: 344,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2044,7 +2211,7 @@ function ResumePage() {
                                                     children: "Core Technologies"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 314,
+                                                    lineNumber: 347,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBadgeGrid, {
@@ -2052,18 +2219,18 @@ function ResumePage() {
                                                             children: s.name
                                                         }, s.name, false, {
                                                             fileName: "[project]/src/app/resume/page.tsx",
-                                                            lineNumber: 316,
+                                                            lineNumber: 349,
                                                             columnNumber: 56
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 315,
+                                                    lineNumber: 348,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 313,
+                                            lineNumber: 346,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2076,7 +2243,7 @@ function ResumePage() {
                                                     children: "Primary Focus"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 320,
+                                                    lineNumber: 353,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBadgeGrid, {
@@ -2084,30 +2251,30 @@ function ResumePage() {
                                                             children: s.name
                                                         }, s.name, false, {
                                                             fileName: "[project]/src/app/resume/page.tsx",
-                                                            lineNumber: 322,
+                                                            lineNumber: 355,
                                                             columnNumber: 57
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/resume/page.tsx",
-                                                    lineNumber: 321,
+                                                    lineNumber: 354,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/resume/page.tsx",
-                                            lineNumber: 319,
+                                            lineNumber: 352,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/resume/page.tsx",
-                                    lineNumber: 312,
+                                    lineNumber: 345,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/resume/page.tsx",
-                            lineNumber: 310,
+                            lineNumber: 343,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2129,12 +2296,12 @@ function ResumePage() {
                             size: 24
                         }, void 0, false, {
                             fileName: "[project]/src/app/resume/page.tsx",
-                            lineNumber: 331,
+                            lineNumber: 364,
                             columnNumber: 41
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/resume/page.tsx",
-                        lineNumber: 331,
+                        lineNumber: 364,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ActionBtn, {
@@ -2143,23 +2310,23 @@ function ResumePage() {
                             size: 24
                         }, void 0, false, {
                             fileName: "[project]/src/app/resume/page.tsx",
-                            lineNumber: 332,
+                            lineNumber: 365,
                             columnNumber: 42
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/resume/page.tsx",
-                        lineNumber: 332,
+                        lineNumber: 365,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/resume/page.tsx",
-                lineNumber: 330,
+                lineNumber: 363,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/src/app/resume/page.tsx",
-                lineNumber: 334,
+                lineNumber: 367,
                 columnNumber: 7
             }, this)
         ]

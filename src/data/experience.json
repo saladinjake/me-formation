@@ -17,12 +17,24 @@
             {
                 "name": "Cloud Dashboard Analytics",
                 "image": "",
-                "description": "Enterprise data visualization tool"
+                "description": "Enterprise data visualization tool",
+                "techStack": [
+                    "React",
+                    "D3.js",
+                    "Node.js"
+                ],
+                "link": "#"
             },
             {
                 "name": "Admin Portal v2 Back Office",
                 "image": "",
-                "description": "Next-gen management interface"
+                "description": "Next-gen management interface",
+                "techStack": [
+                    "Next.js",
+                    "TypeScript",
+                    "Redux"
+                ],
+                "link": "#"
             }
         ]
     },
@@ -40,7 +52,13 @@
             {
                 "name": "Marketplace Pro",
                 "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400",
-                "description": "Scalable B2B platform"
+                "description": "Scalable B2B platform",
+                "techStack": [
+                    "Vue.js",
+                    "Laravel",
+                    "PostgreSQL"
+                ],
+                "link": "#"
             }
         ]
     },
@@ -58,7 +76,13 @@
             {
                 "name": "PayStream",
                 "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=400",
-                "description": "Secure payment processing gateway"
+                "description": "Secure payment processing gateway",
+                "techStack": [
+                    "Java",
+                    "Spring Boot",
+                    "MySQL"
+                ],
+                "link": "#"
             }
         ]
     }

@@ -52,7 +52,7 @@ export default function Home() {
     });
 
     if (loadingAbout || loadingSkills || loadingExperience || loadingCertificates) {
-        return <LoadingOverlay>SK Portfolio Initializing...</LoadingOverlay>;
+        return <LoadingOverlay>Portfolio Initializing...</LoadingOverlay>;
     }
 
     return (

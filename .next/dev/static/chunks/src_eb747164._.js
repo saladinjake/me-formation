@@ -250,11 +250,11 @@ const Navbar = ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Logo, {
                             href: "/",
-                            children: "SK Portfolio"
+                            children: "VJ Portfolio"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
                             lineNumber: 158,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLinks, {
                             children: [
@@ -264,7 +264,7 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 160,
-                                    columnNumber: 25
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
                                     href: "/projects",
@@ -272,7 +272,7 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 161,
-                                    columnNumber: 25
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
                                     href: "/resume",
@@ -280,7 +280,7 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 162,
-                                    columnNumber: 25
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLinkWrapper, {
                                     onMouseEnter: ()=>setShowContactDropdown(true),
@@ -299,13 +299,13 @@ const Navbar = ()=>{
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                                     lineNumber: 169,
-                                                    columnNumber: 44
+                                                    columnNumber: 28
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/layout/Navbar.tsx",
                                             lineNumber: 168,
-                                            columnNumber: 29
+                                            columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
                                             children: showContactDropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DropdownMenu, {
@@ -336,17 +336,17 @@ const Navbar = ()=>{
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/layout/Navbar.tsx",
                                                                 lineNumber: 180,
-                                                                columnNumber: 45
+                                                                columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             " Email Me"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/layout/Navbar.tsx",
                                                         lineNumber: 179,
-                                                        columnNumber: 41
+                                                        columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DropdownItem, {
-                                                        href: "https://linkedin.com",
+                                                        href: "https://linkedin.com/victor-juwa",
                                                         target: "_blank",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"], {
@@ -354,17 +354,17 @@ const Navbar = ()=>{
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/layout/Navbar.tsx",
                                                                 lineNumber: 183,
-                                                                columnNumber: 45
+                                                                columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             " LinkedIn"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/layout/Navbar.tsx",
                                                         lineNumber: 182,
-                                                        columnNumber: 41
+                                                        columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DropdownItem, {
-                                                        href: "https://github.com",
+                                                        href: "https://github.com/saladinjake",
                                                         target: "_blank",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {
@@ -372,31 +372,31 @@ const Navbar = ()=>{
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/layout/Navbar.tsx",
                                                                 lineNumber: 186,
-                                                                columnNumber: 45
+                                                                columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             " GitHub"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/layout/Navbar.tsx",
                                                         lineNumber: 185,
-                                                        columnNumber: 41
+                                                        columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/layout/Navbar.tsx",
                                                 lineNumber: 173,
-                                                columnNumber: 37
+                                                columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Navbar.tsx",
                                             lineNumber: 171,
-                                            columnNumber: 29
+                                            columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 164,
-                                    columnNumber: 25
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
                                     href: "/admin",
@@ -411,13 +411,13 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 193,
-                                    columnNumber: 25
+                                    columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
                             lineNumber: 159,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MenuButton, {
                             onClick: toggle,
@@ -426,29 +426,29 @@ const Navbar = ()=>{
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Navbar.tsx",
                                 lineNumber: 202,
-                                columnNumber: 35
+                                columnNumber: 23
                             }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 size: 24
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Navbar.tsx",
                                 lineNumber: 202,
-                                columnNumber: 53
+                                columnNumber: 41
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
                             lineNumber: 201,
-                            columnNumber: 21
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/layout/Navbar.tsx",
                     lineNumber: 157,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/layout/Navbar.tsx",
                 lineNumber: 156,
-                columnNumber: 13
+                columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
                 children: isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -467,7 +467,7 @@ const Navbar = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
                             lineNumber: 210,
-                            columnNumber: 25
+                            columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MobileDrawer, {
                             initial: {
@@ -500,7 +500,7 @@ const Navbar = ()=>{
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Navbar.tsx",
                                             lineNumber: 223,
-                                            columnNumber: 33
+                                            columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             onClick: toggle,
@@ -512,18 +512,18 @@ const Navbar = ()=>{
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/layout/Navbar.tsx",
                                                 lineNumber: 224,
-                                                columnNumber: 96
+                                                columnNumber: 80
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Navbar.tsx",
                                             lineNumber: 224,
-                                            columnNumber: 33
+                                            columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 222,
-                                    columnNumber: 29
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
                                     href: "/",
@@ -536,7 +536,7 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 226,
-                                    columnNumber: 29
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
                                     href: "/projects",
@@ -549,7 +549,7 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 227,
-                                    columnNumber: 29
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
                                     href: "/resume",
@@ -562,7 +562,7 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 228,
-                                    columnNumber: 29
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
                                     href: "/contact",
@@ -575,7 +575,7 @@ const Navbar = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 229,
-                                    columnNumber: 29
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     style: {
@@ -600,25 +600,25 @@ const Navbar = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Navbar.tsx",
                                         lineNumber: 231,
-                                        columnNumber: 33
+                                        columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
                                     lineNumber: 230,
-                                    columnNumber: 29
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
                             lineNumber: 216,
-                            columnNumber: 25
+                            columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true)
             }, void 0, false, {
                 fileName: "[project]/src/components/layout/Navbar.tsx",
                 lineNumber: 207,
-                columnNumber: 13
+                columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true);
@@ -1232,6 +1232,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/github.js [app-client] (ecmascript) <export default as Github>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/external-link.js [app-client] (ecmascript) <export default as ExternalLink>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/code-xml.js [app-client] (ecmascript) <export default as Code2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layers$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Layers$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/layers.js [app-client] (ecmascript) <export default as Layers>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/Container.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/layout/Navbar.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/layout/Footer.tsx [app-client] (ecmascript)");
@@ -1465,9 +1466,10 @@ const LinkRow = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$
 _c10 = LinkRow;
 function ProjectsPage() {
     _s();
+    const [sideProjects, setSideProjects] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [projects, setProjects] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [search, setSearch] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [filtered, setFiltered] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [search, setSearch] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [complexityFilter, setComplexityFilter] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('All');
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ProjectsPage.useEffect": ()=>{
@@ -1478,6 +1480,11 @@ function ProjectsPage() {
                     setProjects(data);
                     setFiltered(data);
                 }
+            }["ProjectsPage.useEffect"]);
+            fetch('/api/data?type=side_projects').then({
+                "ProjectsPage.useEffect": (res)=>res.json()
+            }["ProjectsPage.useEffect"]).then({
+                "ProjectsPage.useEffect": (data)=>setSideProjects(data)
             }["ProjectsPage.useEffect"]);
         }
     }["ProjectsPage.useEffect"], []);
@@ -1504,8 +1511,8 @@ function ProjectsPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 226,
-                columnNumber: 13
+                lineNumber: 231,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PageHeader, {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Container"], {
@@ -1524,8 +1531,8 @@ function ProjectsPage() {
                                     children: "Portfolio Repository"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 233,
-                                    columnNumber: 25
+                                    lineNumber: 238,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     style: {
@@ -1543,14 +1550,14 @@ function ProjectsPage() {
                                             children: "Projects"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 235,
-                                            columnNumber: 42
+                                            lineNumber: 240,
+                                            columnNumber: 28
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 234,
-                                    columnNumber: 25
+                                    lineNumber: 239,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     style: {
@@ -1563,14 +1570,14 @@ function ProjectsPage() {
                                     children: "Exploring the boundary between performance and design through enterprise-grade architecture."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 237,
-                                    columnNumber: 25
+                                    lineNumber: 242,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/projects/page.tsx",
-                            lineNumber: 229,
-                            columnNumber: 21
+                            lineNumber: 234,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SearchContainer, {
                             children: [
@@ -1580,8 +1587,8 @@ function ProjectsPage() {
                                             size: 24
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 244,
-                                            columnNumber: 29
+                                            lineNumber: 249,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                             placeholder: "Search by tech stack (e.g. Next.js, TypeScript)...",
@@ -1589,14 +1596,14 @@ function ProjectsPage() {
                                             onChange: (e)=>setSearch(e.target.value)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 245,
-                                            columnNumber: 29
+                                            lineNumber: 250,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 243,
-                                    columnNumber: 25
+                                    lineNumber: 248,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     style: {
@@ -1613,30 +1620,30 @@ function ProjectsPage() {
                                             children: lvl
                                         }, lvl, false, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 253,
-                                            columnNumber: 33
+                                            lineNumber: 258,
+                                            columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 251,
-                                    columnNumber: 25
+                                    lineNumber: 256,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/projects/page.tsx",
-                            lineNumber: 242,
-                            columnNumber: 21
+                            lineNumber: 247,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/projects/page.tsx",
-                    lineNumber: 228,
-                    columnNumber: 17
+                    lineNumber: 233,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 227,
-                columnNumber: 13
+                lineNumber: 232,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Section"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Container"], {
@@ -1662,8 +1669,8 @@ function ProjectsPage() {
                                                     alt: proj.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                    lineNumber: 278,
-                                                    columnNumber: 41
+                                                    lineNumber: 283,
+                                                    columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "complexity",
@@ -1673,14 +1680,14 @@ function ProjectsPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                    lineNumber: 279,
-                                                    columnNumber: 41
+                                                    lineNumber: 284,
+                                                    columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 277,
-                                            columnNumber: 37
+                                            lineNumber: 282,
+                                            columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CardBody, {
                                             children: [
@@ -1697,8 +1704,8 @@ function ProjectsPage() {
                                                             color: "var(--primary)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/projects/page.tsx",
-                                                            lineNumber: 283,
-                                                            columnNumber: 45
+                                                            lineNumber: 288,
+                                                            columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                             style: {
@@ -1707,34 +1714,34 @@ function ProjectsPage() {
                                                             children: proj.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/projects/page.tsx",
-                                                            lineNumber: 284,
-                                                            columnNumber: 45
+                                                            lineNumber: 289,
+                                                            columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                    lineNumber: 282,
-                                                    columnNumber: 41
+                                                    lineNumber: 287,
+                                                    columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: proj.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                    lineNumber: 286,
-                                                    columnNumber: 41
+                                                    lineNumber: 291,
+                                                    columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TagList, {
                                                     children: proj.stacks?.map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: s
                                                         }, s, false, {
                                                             fileName: "[project]/src/app/projects/page.tsx",
-                                                            lineNumber: 288,
-                                                            columnNumber: 78
+                                                            lineNumber: 293,
+                                                            columnNumber: 56
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                    lineNumber: 287,
-                                                    columnNumber: 41
+                                                    lineNumber: 292,
+                                                    columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LinkRow, {
                                                     children: [
@@ -1746,15 +1753,15 @@ function ProjectsPage() {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                                    lineNumber: 291,
-                                                                    columnNumber: 83
+                                                                    lineNumber: 296,
+                                                                    columnNumber: 61
                                                                 }, this),
                                                                 " Source"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/projects/page.tsx",
-                                                            lineNumber: 291,
-                                                            columnNumber: 45
+                                                            lineNumber: 296,
+                                                            columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                             href: proj.liveLink,
@@ -1764,63 +1771,277 @@ function ProjectsPage() {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                                    lineNumber: 292,
-                                                                    columnNumber: 85
+                                                                    lineNumber: 297,
+                                                                    columnNumber: 63
                                                                 }, this),
                                                                 " Live Performance"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/projects/page.tsx",
-                                                            lineNumber: 292,
-                                                            columnNumber: 45
+                                                            lineNumber: 297,
+                                                            columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/projects/page.tsx",
-                                                    lineNumber: 290,
-                                                    columnNumber: 41
+                                                    lineNumber: 295,
+                                                    columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/projects/page.tsx",
-                                            lineNumber: 281,
-                                            columnNumber: 37
+                                            lineNumber: 286,
+                                            columnNumber: 19
                                         }, this)
                                     ]
                                 }, proj.title, true, {
                                     fileName: "[project]/src/app/projects/page.tsx",
-                                    lineNumber: 271,
-                                    columnNumber: 33
+                                    lineNumber: 276,
+                                    columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/projects/page.tsx",
-                            lineNumber: 269,
-                            columnNumber: 25
+                            lineNumber: 274,
+                            columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 268,
-                        columnNumber: 21
+                        lineNumber: 273,
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/projects/page.tsx",
-                    lineNumber: 267,
-                    columnNumber: 17
+                    lineNumber: 272,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 266,
-                columnNumber: 13
+                lineNumber: 271,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Section"], {
+                style: {
+                    background: 'var(--accent)',
+                    paddingTop: '6rem',
+                    paddingBottom: '8rem'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Container$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Container"], {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                textAlign: 'center',
+                                marginBottom: '4rem'
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HeaderBadge, {
+                                    children: "Internal Labs"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/projects/page.tsx",
+                                    lineNumber: 310,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    style: {
+                                        fontSize: '3rem',
+                                        fontWeight: 900,
+                                        marginTop: '1rem',
+                                        letterSpacing: '-1.5px'
+                                    },
+                                    children: [
+                                        "Side ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: 'var(--primary)'
+                                            },
+                                            children: "Projects"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/projects/page.tsx",
+                                            lineNumber: 312,
+                                            columnNumber: 20
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/projects/page.tsx",
+                                    lineNumber: 311,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    style: {
+                                        color: 'var(--secondary)',
+                                        marginTop: '0.5rem'
+                                    },
+                                    children: "Experimental builds and open source contributions."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/projects/page.tsx",
+                                    lineNumber: 314,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/projects/page.tsx",
+                            lineNumber: 309,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                display: 'grid',
+                                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                                gap: '2rem'
+                            },
+                            children: sideProjects.map((proj, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        scale: 0.95
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        scale: 1
+                                    },
+                                    viewport: {
+                                        once: true
+                                    },
+                                    style: {
+                                        background: 'white',
+                                        padding: '2rem',
+                                        borderRadius: '1.5rem',
+                                        border: '1px solid var(--border)',
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        gap: '1rem'
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                background: 'var(--accent)',
+                                                width: 50,
+                                                height: 50,
+                                                borderRadius: 12,
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                color: 'var(--primary)'
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layers$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Layers$3e$__["Layers"], {
+                                                size: 24
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/projects/page.tsx",
+                                                lineNumber: 335,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/projects/page.tsx",
+                                            lineNumber: 334,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            style: {
+                                                fontSize: '1.25rem',
+                                                fontWeight: 800
+                                            },
+                                            children: proj.title
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/projects/page.tsx",
+                                            lineNumber: 337,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                color: 'var(--secondary)',
+                                                fontSize: '0.95rem',
+                                                lineHeight: '1.6'
+                                            },
+                                            children: proj.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/projects/page.tsx",
+                                            lineNumber: 338,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: 'flex',
+                                                flexWrap: 'wrap',
+                                                gap: '0.5rem',
+                                                marginTop: 'auto',
+                                                paddingTop: '1rem'
+                                            },
+                                            children: proj.tech?.map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        fontSize: '0.7rem',
+                                                        fontWeight: 800,
+                                                        background: 'var(--accent)',
+                                                        color: 'var(--primary)',
+                                                        padding: '0.25rem 0.6rem',
+                                                        borderRadius: '4px'
+                                                    },
+                                                    children: t
+                                                }, t, false, {
+                                                    fileName: "[project]/src/app/projects/page.tsx",
+                                                    lineNumber: 341,
+                                                    columnNumber: 21
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/projects/page.tsx",
+                                            lineNumber: 339,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: proj.link,
+                                            target: "_blank",
+                                            style: {
+                                                marginTop: '1rem',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: '0.5rem',
+                                                fontWeight: 700,
+                                                fontSize: '0.9rem',
+                                                color: 'var(--primary)'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {
+                                                    size: 16
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/projects/page.tsx",
+                                                    lineNumber: 345,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " View Repository"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/projects/page.tsx",
+                                            lineNumber: 344,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, i, true, {
+                                    fileName: "[project]/src/app/projects/page.tsx",
+                                    lineNumber: 319,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/projects/page.tsx",
+                            lineNumber: 317,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/projects/page.tsx",
+                    lineNumber: 308,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/projects/page.tsx",
+                lineNumber: 307,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 301,
-                columnNumber: 13
+                lineNumber: 353,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_s(ProjectsPage, "5BJghAHKZkuWv5XFykS3r4WoTKg=");
+_s(ProjectsPage, "SY4RRRhGaSefOyJyBQwTPy4fZ10=");
 _c11 = ProjectsPage;
 var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11;
 __turbopack_context__.k.register(_c, "PageHeader");

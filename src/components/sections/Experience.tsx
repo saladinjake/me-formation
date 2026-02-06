@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, Briefcase, Calendar, ChevronRight } from 'lucide-react';
+import { ChevronDown, Briefcase, Calendar, ChevronRight, ExternalLink } from 'lucide-react';
 import { Container, Section } from '../ui/Container';
 
 const ExpCard = styled(motion.div)`
@@ -121,6 +121,8 @@ const ProductCard = styled(motion.div)`
   border: 1px solid var(--border);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 
   img {
     width: 100%;
@@ -132,7 +134,38 @@ const ProductCard = styled(motion.div)`
   }
 
   h5 { font-size: 1.1rem; margin-bottom: 0.5rem; }
-  p { font-size: 0.9rem; color: var(--secondary); line-height: 1.5; }
+  p { font-size: 0.9rem; color: var(--secondary); line-height: 1.5; flex: 1; }
+`;
+
+const ProductTags = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+
+  span {
+    padding: 0.25rem 0.75rem;
+    background: white;
+    color: var(--primary);
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+  }
+`;
+
+const ProductLink = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: auto;
+  
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const AchievementList = styled.ul`
@@ -154,113 +187,125 @@ const AchievementList = styled.ul`
 `;
 
 const ExperienceItem = ({ exp }: { exp: any }) => {
-    const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
-    return (
-        <ExpCard
-            layout
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-        >
-            <ExpHeader onClick={() => setIsExpanded(!isExpanded)}>
-                <div style={{ display: 'flex', gap: '1.5rem', flex: 1 }}>
-                    <CompanyIcon>
-                        <Briefcase size={28} />
-                    </CompanyIcon>
-                    <MainInfo>
-                        <h3>{exp.company}</h3>
-                        <h4>{exp.role}</h4>
-                    </MainInfo>
-                </div>
-                <MetaInfo>
-                    <span><Calendar size={16} /> {exp.period}</span>
-                    <motion.div
-                        animate={{ rotate: isExpanded ? 180 : 0 }}
-                        style={{ color: 'var(--primary)', background: 'var(--accent)', borderRadius: '50%', padding: '5px' }}
+  return (
+    <ExpCard
+      layout
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+    >
+      <ExpHeader onClick={() => setIsExpanded(!isExpanded)}>
+        <div style={{ display: 'flex', gap: '1.5rem', flex: 1 }}>
+          <CompanyIcon>
+            <Briefcase size={28} />
+          </CompanyIcon>
+          <MainInfo>
+            <h3>{exp.company}</h3>
+            <h4>{exp.role}</h4>
+          </MainInfo>
+        </div>
+        <MetaInfo>
+          <span><Calendar size={16} /> {exp.period}</span>
+          <motion.div
+            animate={{ rotate: isExpanded ? 180 : 0 }}
+            style={{ color: 'var(--primary)', background: 'var(--accent)', borderRadius: '50%', padding: '5px' }}
+          >
+            <ChevronDown size={20} />
+          </motion.div>
+        </MetaInfo>
+      </ExpHeader>
+
+      <AnimatePresence>
+        {isExpanded && (
+          <CollapsibleContent
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+          >
+            <Divider />
+            <p style={{ color: 'var(--foreground)', fontSize: '1.05rem' }}>{exp.description}</p>
+
+            <h5 style={{ margin: '1.5rem 0 0.5rem', fontSize: '1.1rem', color: 'var(--primary-dark)' }}>Key Achievements:</h5>
+            <AchievementList>
+              {exp.achievements?.map((a: string, i: number) => (
+                <li key={i}>{a}</li>
+              ))}
+            </AchievementList>
+
+            {exp.products && exp.products.length > 0 && (
+              <>
+                <h5 style={{ margin: '2rem 0 1rem', fontSize: '1.1rem', color: 'var(--primary-dark)' }}>Delivered Products:</h5>
+                <ProductGrid>
+                  {exp.products.map((p: any, i: number) => (
+                    <ProductCard
+                      key={i}
+                      whileHover={{ y: -5 }}
                     >
-                        <ChevronDown size={20} />
-                    </motion.div>
-                </MetaInfo>
-            </ExpHeader>
+                      <img src={p.image} alt={p.name} />
+                      <h5>{p.name}</h5>
+                      <p>{p.description}</p>
+                      {p.techStack && (
+                        <ProductTags>
+                          {p.techStack.map((t: string) => (
+                            <span key={t}>{t}</span>
+                          ))}
+                        </ProductTags>
+                      )}
+                      {p.link && (
+                        <ProductLink href={p.link} target="_blank">
+                          View Project <ExternalLink size={14} />
+                        </ProductLink>
+                      )}
+                    </ProductCard>
+                  ))}
+                </ProductGrid>
+              </>
+            )}
 
-            <AnimatePresence>
-                {isExpanded && (
-                    <CollapsibleContent
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.4, ease: "easeInOut" }}
-                    >
-                        <Divider />
-                        <p style={{ color: 'var(--foreground)', fontSize: '1.05rem' }}>{exp.description}</p>
-
-                        <h5 style={{ margin: '1.5rem 0 0.5rem', fontSize: '1.1rem', color: 'var(--primary-dark)' }}>Key Achievements:</h5>
-                        <AchievementList>
-                            {exp.achievements?.map((a: string, i: number) => (
-                                <li key={i}>{a}</li>
-                            ))}
-                        </AchievementList>
-
-                        {exp.products && exp.products.length > 0 && (
-                            <>
-                                <h5 style={{ margin: '2rem 0 1rem', fontSize: '1.1rem', color: 'var(--primary-dark)' }}>Delivered Products:</h5>
-                                <ProductGrid>
-                                    {exp.products.map((p: any, i: number) => (
-                                        <ProductCard
-                                            key={i}
-                                            whileHover={{ y: -5 }}
-                                        >
-                                            <img src={p.image} alt={p.name} />
-                                            <h5>{p.name}</h5>
-                                            <p>{p.description}</p>
-                                        </ProductCard>
-                                    ))}
-                                </ProductGrid>
-                            </>
-                        )}
-
-                        {exp.stacks && (
-                            <TechStack>
-                                {exp.stacks.map((s: string) => <span key={s}>{s}</span>)}
-                            </TechStack>
-                        )}
-                    </CollapsibleContent>
-                )}
-            </AnimatePresence>
-        </ExpCard>
-    );
+            {exp.stacks && (
+              <TechStack>
+                {exp.stacks.map((s: string) => <span key={s}>{s}</span>)}
+              </TechStack>
+            )}
+          </CollapsibleContent>
+        )}
+      </AnimatePresence>
+    </ExpCard>
+  );
 };
 
 export const Experience = ({ data }: { data: any[] }) => {
-    return (
-        <Section>
-            <Container>
-                <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-                    <motion.h2
-                        style={{ fontSize: '3rem', fontWeight: 800, letterSpacing: '-1px' }}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                    >
-                        Professional Journey
-                    </motion.h2>
-                    <motion.p
-                        style={{ color: 'var(--secondary)', fontSize: '1.2rem', marginTop: '1rem' }}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: 0.2 }}
-                    >
-                        8 years of delivering high-impact solutions for enterprise clients.
-                    </motion.p>
-                </div>
-                <div>
-                    {data?.map((exp, i) => (
-                        <ExperienceItem key={i} exp={exp} />
-                    ))}
-                </div>
-            </Container>
-        </Section>
-    );
+  return (
+    <Section>
+      <Container>
+        <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <motion.h2
+            style={{ fontSize: '3rem', fontWeight: 800, letterSpacing: '-1px' }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Professional Journey
+          </motion.h2>
+          <motion.p
+            style={{ color: 'var(--secondary)', fontSize: '1.2rem', marginTop: '1rem' }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+          >
+            8 years of delivering high-impact solutions for enterprise clients.
+          </motion.p>
+        </div>
+        <div>
+          {data?.map((exp, i) => (
+            <ExperienceItem key={i} exp={exp} />
+          ))}
+        </div>
+      </Container>
+    </Section>
+  );
 };

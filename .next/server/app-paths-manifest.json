@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/about/page": "app/admin/about/page.js",
+  "/admin/certificates/page": "app/admin/certificates/page.js",
+  "/admin/education/page": "app/admin/education/page.js",
+  "/admin/experience/page": "app/admin/experience/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/projects/page": "app/admin/projects/page.js",
+  "/admin/side-projects/page": "app/admin/side-projects/page.js",
+  "/admin/skills/page": "app/admin/skills/page.js",
+  "/api/data/route": "app/api/data/route.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/resume/page": "app/resume/page.js"
+}
