@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Open Source Auth Library",
+        "description": "A lightweight authentication wrapper for Next.js applications.",
+        "link": "https://github.com/saladinjake/auth-lib",
+        "tech": [
+            "TypeScript",
+            "Next.js",
+            "Jose"
+        ]
+    },
+    {
+        "title": "Real-time Chat App",
+        "description": "Experimental WebSocket based chat platform with end-to-end encryption.",
+        "link": "https://github.com/saladinjake/chat-app",
+        "tech": [
+            "Socket.io",
+            "React",
+            "Node.js"
+        ]
+    }
+]
