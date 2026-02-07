@@ -1,10 +1,3 @@
-[00:01:00.204] Server  LOG     ✓ Ready in 45.2s
-[00:03:35.587] Server  LOG     ○ Compiling / ...
-[00:04:05.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:32.617] Browser ERROR   uncaughtError: ReferenceError: search is not defined
-[00:04:49.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:09.456] Server  LOG     ✓ Finished filesystem cache database compaction in 10.3s
-[00:05:46.663] Browser ERROR   uncaughtError: ReferenceError: search is not defined
-[00:07:25.604] Server  LOG     ✓ Compiled in 330ms
-[00:07:25.726] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:28.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:19.626] Server  LOG     ○ Compiling middleware ...
+[00:12:24.469] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:12:38.002] Server  LOG     ✓ Ready in 195.1s

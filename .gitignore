@@ -1,1 +1,8 @@
 node_modules
+folio.db
+folio.db-journal
+.next
+.npm
+npm-debug.log
+yarn-error.log
+.DS_Store

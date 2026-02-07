@@ -7,9 +7,10 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
     LayoutDashboard, Folder, Lightbulb, User, FileText,
-    Award, ChevronLeft, ChevronRight, LogOut, Bell, BookOpen, Rocket
+    Award, ChevronLeft, ChevronRight, LogOut, Bell, BookOpen, Rocket, Globe
 } from 'lucide-react';
 import { AdminLayoutWrapper, MainContent } from '@/components/admin/AdminUI';
+import { AdminLogout } from '@/components/admin/LogoutButton';
 
 const Sidebar = styled(motion.aside) <{ $collapsed: boolean }>`
   width: ${props => props.$collapsed ? '80px' : '280px'};
@@ -107,11 +108,12 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                     </SidebarItem>
                 ))}
 
-                <div style={{ marginTop: 'auto', borderTop: '1px solid var(--border)', paddingTop: '1rem' }}>
-                    <SidebarItem href="/" $active={false} $collapsed={isCollapsed}>
-                        <LogOut size={20} />
+                <div style={{ marginTop: 'auto', borderTop: '1px solid var(--border)', paddingTop: '1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                    <SidebarItem href="/" $active={false} $collapsed={isCollapsed} target="_blank">
+                        <Globe size={20} />
                         <span>Public Site</span>
                     </SidebarItem>
+                    <AdminLogout />
                 </div>
             </Sidebar>
 
