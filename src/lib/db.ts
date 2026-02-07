@@ -14,7 +14,6 @@ const initDb = () => {
         password TEXT NOT NULL
     )
   `);
-
     // Check if admin exists, if not create default
     const stmt = db.prepare('SELECT count(*) as count FROM admins');
     const result = stmt.get() as { count: number };
